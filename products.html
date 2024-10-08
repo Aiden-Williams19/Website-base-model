@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My E-Commerce Site with Sidebar</title>
+    <title>Product Page with Sidebar</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <!-- Sidebar -->
     <div id="sidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
-        <a href="#">Specials</a>
-        <a href="products.html">Shop</a>
+        <a href="index.html">Specials</a>
+        <a href="#">Shop</a>
         <a href="#">Contact</a>
         <a href="#">Cart</a>
     </div>
@@ -23,19 +23,12 @@
             <span style="font-size:30px;cursor:pointer" onclick="toggleSidebar()">&#9776; Menu</span>
             <h1>My Shop</h1>
             <ul>
-                <li><a href="#">Specials</a></li>
-                <li><a href="products.html">Shop</a></li>
+                <li><a href="index.html">Specials</a></li>
+                <li><a href="#">Shop</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Cart</a></li>
             </ul>
         </nav>
-
-        <!-- Hero Section -->
-        <header>
-            <h2>Welcome to My E-Commerce Store</h2>
-            <p>Discover a wide range of products at unbeatable prices!</p>
-            <button>Shop Now</button>
-        </header>
 
         <!-- Product Section -->
         <section class="products">
@@ -106,13 +99,8 @@
                 </div>
             </div>
         </section>
-
-        <!-- Footer -->
-        <footer>
-            <p>&copy; 2024 My E-Commerce Site. All rights reserved.</p>
-        </footer>
     </div>
 
-    <script src="index.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
