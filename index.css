@@ -81,7 +81,7 @@ nav ul li a {
 /* Style the hero section */
 header {
     background: url('hero-image.jpg') no-repeat center center/cover;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 50px 20px;
 }
